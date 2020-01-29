@@ -18,7 +18,7 @@ In this section you are going to do some project setup in preparation for the re
 # Import Resources for Project
 
 > [action]
-> Download the [GiphySearchIOS assets](https://github.com/MakeSchool-Tutorials/Orange-Tree-SpriteKit-Swift4/raw/master/assets.zip)
+> Download the [GiphySearchIOS assets](https://github.com/MakeSchool-Tutorials/Giphy-Search-iOS/blob/master/assets.zip)
 > that have been created for you.
 > Once the download has finished, unpack the zip file and drag it into the project tree on the
 > lefthand side. Drag the GifExtension.swift file into the project. Then drag the appIcons into your assets folder. Make sure that you have _Copy items if needed_ and _Create Groups_ selected.
