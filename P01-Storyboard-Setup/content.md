@@ -21,7 +21,7 @@ In this section you are going to do some project setup in preparation for the re
 > Download the [GiphySearchIOS assets](https://github.com/MakeSchool-Tutorials/Giphy-Search-iOS/blob/master/assets.zip)
 > that have been created for you.
 > Once the download has finished, unpack the zip file and drag it into the project tree on the
-> lefthand side. Drag the GifExtension.swift file into the project. Then drag the appIcons into your assets folder. Make sure that you have _Copy items if needed_ and _Create Groups_ selected.
+> lefthand side. Drag the GifExtension.swift file into the project(this allows us to display gifs onto a UIImageView). Then drag the appIcons into your assets folder. Make sure that you have _Copy items if needed_ and _Create Groups_ selected.
 > When you have finished, your project tree on the left should look like this.
 >
 > ![Project tree](./assets/projectTree.png)
