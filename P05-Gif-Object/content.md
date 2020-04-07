@@ -130,7 +130,7 @@ func fetchGifs(searchTerm: String, completion: @escaping (_ response: GifArray?)
 >
 > We now decode the JSON object into our custom Gif Object.
 >
-> Lets test it out! Navigate back to the **ViewController** class and change the `searchGifs` function to the following:
+> Let's test it out! Navigate back to the **ViewController** class and change the `searchGifs` function to the following:
 >
 ```
     /**
@@ -138,10 +138,10 @@ func fetchGifs(searchTerm: String, completion: @escaping (_ response: GifArray?)
     - Parameter searchTerm: The string to search gifs of
     */
     func fetchGifs(for searchText: String) {
-        network.fetchGiphs(searchTerm: searchText) { results in
-            if results != nil {
-                print(results!.giphs.count)
-                self.giphs = results!.giphs
+        network.fetchGifs(searchTerm: searchText) { gifArray in
+            if gifArray != nil {
+                print(gifArray!.gifs.count)
+                self.gifs = gifArray!.gifs
                 self.tableView.reloadData()
             }
         }
