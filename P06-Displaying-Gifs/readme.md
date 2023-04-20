@@ -1,7 +1,3 @@
----
-title: "Displaying Gifs"
-slug: displaying-gifs
----
 
 Now that we have our network finished we can go ahead and populate our tableView based on our **search query**.
 

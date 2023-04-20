@@ -1,7 +1,3 @@
----
-title: "Project Setup"
-slug: project-setup
----
 
 In this section you are going to do some project setup in preparation for the rest of the tutorial.
 

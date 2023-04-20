@@ -1,7 +1,3 @@
----
-title: "Setting up the Giphy API"
-slug: settingup-giphyapi
----
 
 Now that we have the UI setup it's time to link it with the Giphy API! We will need to **create an account** with Giphy and get an **API key** in order to fetch gifs.
 

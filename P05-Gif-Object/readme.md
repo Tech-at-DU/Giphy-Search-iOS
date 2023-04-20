@@ -1,7 +1,3 @@
----
-title: "Creating the Gif Object"
-slug: creating-the-gif-object
----
 
 To finish off our network layer we will need to make our own **Gif Object** that can decode the response from Giphy:
 

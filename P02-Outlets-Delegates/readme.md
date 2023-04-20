@@ -1,7 +1,3 @@
----
-title: "Outlets and Delegates"
-slug: outlets-and-Delegates
----
 
 We now need to **link our views to our ViewController** using outlets. `Outlets` provide a way to reference interface objects—the objects you added to your storyboard.
 

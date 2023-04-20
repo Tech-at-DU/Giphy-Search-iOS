@@ -1,8 +1,3 @@
----
-title: "Giphy Search for iOS"
-slug: getting-started
----
-
 ## Getting started
 
 In this tutorial you will build **Giphy Search** -- search for gifs using the [Giphy API](https://developers.giphy.com/). You will use Apple's Swift programming language together with the Giphy API.

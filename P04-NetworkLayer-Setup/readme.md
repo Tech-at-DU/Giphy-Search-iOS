@@ -1,7 +1,3 @@
----
-title: "Creating the Network Layer"
-slug: network-layer
----
 
 Now that we have an _API key_ we need to create a **network layer** to fetch gifs. Our network layer will have a couple of components. We will need to create a function that **fetches gifs** based on the search the user inputs into the search bar.
 
