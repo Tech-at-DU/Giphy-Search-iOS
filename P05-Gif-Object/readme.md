@@ -133,7 +133,7 @@ func fetchGifs(searchTerm: String, completion: @escaping (_ response: GifArray?)
     Fetches gifs based on the search term and populates tableview
     - Parameter searchTerm: The string to search gifs of
     */
-    func fetchGifs(for searchText: String) {
+    func searchGifs(for searchText: String) {
         network.fetchGifs(searchTerm: searchText) { gifArray in
             if gifArray != nil {
                 print(gifArray!.gifs.count)
