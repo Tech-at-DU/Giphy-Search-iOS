@@ -12,7 +12,7 @@ We will need to edit some of the properties inside of our **tableView** and also
 >
 > Change the code inside your `GifCell` to the following:
 >
-```
+```Swift
 import UIKit
 class GifCell: UITableViewCell {
     /// Gif to be displayed.
