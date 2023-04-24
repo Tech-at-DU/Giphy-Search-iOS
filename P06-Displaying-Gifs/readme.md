@@ -54,11 +54,23 @@ class GifCell: UITableViewCell {
 >
 > Navigate to our **tableView extension** inside the ViewController class.
 >
-> Change the function **numberOfRowsInSection** to `return gifs.count` instead of `1`. This will allow our tableView to display all of our gif objects.
+> Change the function **numberOfRowsInSection** to 
+
+```Swift
+return gifs.count
+```
+
+> instead of `1`. This will allow our tableView to display all of our gif objects.
 >
 > Great! Now all we need to do is pass the Gif object into our cell. To do this navigate to **cellForRowAt**.
 >
-> Underneath where we create our cell `let cell = tableView.dequeueReusableCell(withIdentifier: "gifCell") as! GifCell` we need to pass in our gif object.
+> Underneath where we create our cell:
+
+```Swift 
+let cell = tableView.dequeueReusableCell(withIdentifier: "gifCell") as! GifCell
+```
+
+> we need to pass in our gif object.
 >
 > To do this add the following code:
 > `cell.gif = gifs[indexPath.row]`
