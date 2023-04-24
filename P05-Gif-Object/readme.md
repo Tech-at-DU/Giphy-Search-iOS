@@ -1,7 +1,7 @@
 
 To finish off our network layer we will need to make our own **Gif Object** that can decode the response from Giphy:
 
-```
+```JSON
 "data": [
     {
       "type": "gif",
@@ -37,7 +37,7 @@ To finish off our network layer we will need to make our own **Gif Object** that
 >
 > Copy the following code into your **Gif** class.
 >
-```
+```Swift
 import Foundation
 /// Array of Gif objects.
 struct GifArray: Decodable {
@@ -98,7 +98,7 @@ Now that we've created our Gif Object lets link it to our URLSession task.
 > [action]
 >Add the following code to the `fetchGifs` function inside our **GifNetwork**.
 >
-```
+```Swift
 /**
 Fetches gifs from the Giphy api
 -Parameter searchTerm: What  we should query gifs of.
@@ -128,7 +128,7 @@ func fetchGifs(searchTerm: String, completion: @escaping (_ response: GifArray?)
 >
 > Let's test it out! Navigate back to the **ViewController** class and change the `searchGifs` function to the following:
 >
-```
+```Swift
     /**
     Fetches gifs based on the search term and populates tableview
     - Parameter searchTerm: The string to search gifs of
@@ -163,7 +163,7 @@ Before we continue let's add a couple things to perfect our network layer
 >
 > Add the following code under your `fetchGifs` function.
 >
-```
+```Swift
 /**
     Returns a url with our API key and search term
     - Parameter searchTerm: The string to search gifs of
@@ -192,7 +192,7 @@ Before we continue let's add a couple things to perfect our network layer
 >
 > Replace the function with the following code:
 >
-```
+```Swift
 /**
     Fetches gifs based on the search term and populates tableview
     - Parameter searchTerm: The string to search gifs of
