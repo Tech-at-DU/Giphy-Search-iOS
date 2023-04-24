@@ -187,7 +187,7 @@ Before we continue let's add a couple things to perfect our network layer
 >
 > To finish off our network layer we will add in a `urlBuilder`. urlBuilders create a custom URL based on query items
 >
-> Add the following code under your `fetchGifs` function.
+> Add the following code under your `fetchGifs` function in the `GifNetwork` class.
 >
 ```Swift
 /**
