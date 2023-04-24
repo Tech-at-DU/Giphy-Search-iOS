@@ -123,6 +123,13 @@ func fetchGifs(searchTerm: String, completion: @escaping (_ response: GifArray?)
     }.resume()
 }
 ```
+
+> [Action] The ViewController needs to store an array of Gifs. Add a variable for this at the top of ViewController.swift, below `var network = GifNetwork()`:
+
+```Swift
+var gifs: [Gif] = []
+```
+
 >
 > We now decode the JSON object into our custom Gif Object.
 >
