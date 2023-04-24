@@ -12,7 +12,7 @@ Now that we have an _API key_ we need to create a **network layer** to fetch gif
 >
 > Copy the code below and place in inside your **GifNetwork** swift file. Be sure to replace the `apiKey` with the one you previously made.
 >
-```
+```Swift
 import Foundation
 class GifNetwork {
     let apiKey = // Put your api key here.
