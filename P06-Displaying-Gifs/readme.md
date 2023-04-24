@@ -48,7 +48,8 @@ class GifCell: UITableViewCell {
 
 # Editing our TableView
 
-> [action]
+> [action] Return to ViewController.swift to update your tableview. 
+> 
 > Now that we have our **GifCell** all ready to display gifs we will need to edit some of the properties for our **tableView**.
 >
 > Navigate to our **tableView extension** inside the ViewController class.
