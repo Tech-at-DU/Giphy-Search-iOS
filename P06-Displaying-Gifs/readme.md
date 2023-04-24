@@ -73,7 +73,12 @@ let cell = tableView.dequeueReusableCell(withIdentifier: "gifCell") as! GifCell
 > we need to pass in our gif object.
 >
 > To do this add the following code:
-> `cell.gif = gifs[indexPath.row]`
+
+```Swift
+cell.gif = gifs[indexPath.row]
+return cell
+```
+
 >
 > Now our cell will be populated with the gif object that we fetch from the Giphy API.
 >
