@@ -118,7 +118,8 @@ func setup() {
 >
 > We have an error because our ViewController doesn't conform to `UISearchTextFieldDelegate`. Add this extension to fix it.
 >
-> ```
+
+```Swift
 // MARK: - Search bar functions
 extension ViewController: UISearchTextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
@@ -130,7 +131,7 @@ extension ViewController: UISearchTextFieldDelegate {
     }
 }
 ```
->
+
 > This will allow us to get the text inside the search bar when the user presses **search**.
 >
 
