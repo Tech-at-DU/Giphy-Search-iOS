@@ -57,7 +57,7 @@ class GifNetwork {
 >
 > Add the **following code** below your `setup()` function.
 >
-```
+```Swift
 /**
     Fetches gifs based on the search term and populates tableview
     - Parameter searchTerm: The string to search gifs of
@@ -69,7 +69,7 @@ class GifNetwork {
 >
 > **We need to trigger this function when the user searches**. Navigate down to the `textFieldShouldReturn` function and replace it's code with the following.
 >
-```
+```Swift
 func textFieldShouldReturn(_ textField: UITextField) -> Bool {
     textField.resignFirstResponder()
     if textField.text != nil {
@@ -99,7 +99,7 @@ func textFieldShouldReturn(_ textField: UITextField) -> Bool {
 > [action]
 > First lets take a look at the **JSON data** that gets returned from the Giphy API.
 >
-```
+```Swift
 "data": [
     {
       "type": "gif",
