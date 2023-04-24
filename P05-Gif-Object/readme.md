@@ -239,3 +239,5 @@ Before we continue let's add a couple things to perfect our network layer
 # Next Steps
 
 Now that we have our network finished we can go ahead and populate our tableView based on our search query.
+
+- [P06-Displaying-Gifs](./P06-Displaying-Gifs)

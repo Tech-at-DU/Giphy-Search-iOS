@@ -16,3 +16,5 @@ Throughout this tutorial you will learn many concepts including how to:
 ![Alt text](assets/finalProduct.gif "Final Product")
 
 **Time to get started!**
+
+- [P01-Storyboard-Setup](./P01-Storyboard-Setup)
