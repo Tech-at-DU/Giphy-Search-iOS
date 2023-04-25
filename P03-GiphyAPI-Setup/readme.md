@@ -38,4 +38,4 @@ Go to the [Giphy Devleoper Website](https://developers.giphy.com/).
 
 Now that we have an **API key** we can dive into the network layer and start fetching gifs!
 
-- [P04-NetworkLayer-Setup](./P04-NetworkLayer-Setup)
+- [P04-NetworkLayer-Setup](../P04-NetworkLayer-Setup)
