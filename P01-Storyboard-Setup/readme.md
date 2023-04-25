@@ -64,4 +64,4 @@ Awesome job, all thats left is to add a **search bar**!
 
 Go and **run the project** by pressing `command + R`. You should see your **tableview and search bar**. With this we will be able to fetch gifs and display them inside our tableview! Next we will need to setup the **outlets to these views and also their delegate functions**.
 
-- [P02-Outlets-Delegates](./P02-Outlets-Delegates)
+- [P02-Outlets-Delegates](../P02-Outlets-Delegates)
