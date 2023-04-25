@@ -137,4 +137,4 @@ func textFieldShouldReturn(_ textField: UITextField) -> Bool {
 
 To finish off our network layer we will need to make our own **Gif Object** that can decode the JSON response from Giphy.
 
-- [P05-Gif-Object](./P05-Gif-Object)
+- [P05-Gif-Object](../P05-Gif-Object)
