@@ -17,4 +17,4 @@ Throughout this tutorial you will learn many concepts including how to:
 
 **Time to get started!**
 
-- [P01-Storyboard-Setup](./P01-Storyboard-Setup)
+- [P01-Storyboard-Setup](../P01-Storyboard-Setup)
