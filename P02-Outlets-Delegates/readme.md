@@ -143,4 +143,4 @@ Press `Command + R` to launch the app. Type something into the search bar, press
 
 Now that we are done with most of the UI/UX we can dive into the network layer and getting setup with the Giphy api.
 
-- [P03-GiphyAPI-Setup](./P03-GiphyAPI-Setup)
+- [P03-GiphyAPI-Setup](../P03-GiphyAPI-Setup)
